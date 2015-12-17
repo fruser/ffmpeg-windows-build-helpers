@@ -1294,7 +1294,7 @@ build_ffmpeg() {
   local shared=$2
   local git_url="https://github.com/FFmpeg/FFmpeg.git"
   local output_dir="ffmpeg_git"
-  local branch="release/2.5"
+  local branch="release/2.6"
 
   if [[ "$non_free" = "y" ]]; then
     output_dir="${output_dir}_with_fdk_aac"
